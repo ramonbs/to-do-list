@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+body {
+    background-color: #002244;
+    color: rgb(250, 247, 247);
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 64px;
+    max-width: 400px;
+}
+
+button {
+    border: 1px solid rgb(105, 197, 255);
+    border-radius: 5px;
+    background-color: rgb(227, 248, 255);
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+input {
+    height: 24px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.task-form {
+    margin-bottom: 10px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    max-width: 300px;
+}
+
+ul li {
+    font-size: 24px;
+    color: lavender;
+}
+
+input:checked+label {
+    text-decoration: line-through;
+    color: grey;
+    text-align: center;
+}
